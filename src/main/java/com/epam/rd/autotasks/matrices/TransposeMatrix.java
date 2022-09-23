@@ -5,8 +5,18 @@ public class TransposeMatrix {
     public static int[][] transpose(int[][] matrix) {
 
         //Put your code here
+        int columns = matrix.length;
+        int rows = matrix[1].length;
+        int[][] changedMatrix = new int[rows][columns];
 
-        return null;
+        for(int i = 0 ; i < rows; i++){
+            for(int j = 0; j < columns; j++){
+                changedMatrix[i][j] = matrix[j][i];
+
+            }        }
+
+        return changedMatrix;
+
     }
 
     public static void main(String[] args) {
