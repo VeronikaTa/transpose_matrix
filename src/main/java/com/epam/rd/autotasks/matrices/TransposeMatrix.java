@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.matrices;
+package com.epam.training.student_veronika_tarasova.transpose_matrix.src.main.java.com.epam.rd.autotasks.matrices;
 import java.util.Arrays;
 
 public class TransposeMatrix {

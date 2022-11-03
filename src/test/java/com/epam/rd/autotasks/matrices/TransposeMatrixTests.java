@@ -1,4 +1,6 @@
-package com.epam.rd.autotasks.matrices;
+package com.epam.training.student_veronika_tarasova.transpose_matrix.src.test.java.com.epam.rd.autotasks.matrices;
+
+import com.epam.training.student_veronika_tarasova.transpose_matrix.src.main.java.com.epam.rd.autotasks.matrices.TransposeMatrix;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
